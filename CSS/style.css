@@ -1,0 +1,25 @@
+  #card{
+                color: rgb(255, 0, 242);
+            background-color: rgb(51, 237, 18);
+            text-align: center;
+            padding: 10px;
+          }
+          h3{
+            text-transform: uppercase;
+            text-decoration: underline;
+          }
+          .c1{
+            background-color: rgb(64, 255, 0);
+          }
+          #guess{
+            background-color: orangered;
+           
+          }
+          
+          h4{
+             background-color: rgb(255, 0, 183)
+          }
+
+          h5{
+            background-color: gold;
+          }

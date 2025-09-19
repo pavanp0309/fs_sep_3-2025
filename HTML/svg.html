@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- svg : scalabale vector graphics  -->
+     <!-- its is an xml based format used for a defining grpahics  eg: icons ,shapes(circle rectangle line etc..)
+      charts illustructions-->
+      <!-- Key Features  -->
+       <!-- scalabale : no pixellation when zoomed or resized -->
+        <!-- lightweight:samaller in size compared to images -->
+         <!-- textbased : it can be edited -->
+          <!-- it can be animated & interacted etc -->
+
+       <!-- syntax -->
+        <svg style="background-color: black;" width="300px" height="300px" viewbox="0 0 100 100">
+              <circle r="30" cx="50" cy="50" fill="white" stroke="yellow" stroke-width="3"/>
+              <circle r="4" cx="35" cy="45" fill="red"/>
+              <circle r="4" cx="35" cy="45" fill="red"/>
+              <!-- eye_ball -->
+              <circle r="1" cx="35" cy="48" fill="black">
+                <animate  attributeName="cx" from="35" to="37" dur="5s" repeatCount="indefinite"/>
+              </circle>
+              <circle r="4" cx="55" cy="45" fill="red"/>
+              <!-- eye_ball -->
+              <circle r="1" cx="55" cy="48" fill="black">
+                <animate  attributeName="cx" from="55" to="56" dur="5s" repeatCount="indefinite"/>
+              </circle>
+              <circle r="2" cx="45" cy="55" fill="red"/>
+                    <!-- rx:horizontal radius ry:vertical radius cx:x:coordinate cy:y:coordinate -->
+              <!-- ellipse -->
+            <ellipse rx="10" ry="4" cx="46" cy="65" fill="black" >
+                <animate  attributeName="ry"  from="4" to="1" dur="5s"  repeatCount="indefinite"/>
+            </ellipse>
+            <ellipse rx="5" ry="2" cx="46" cy="68" fill="white" ></ellipse>
+            <ellipse rx="2" ry="1" cx="46" cy="65" fill="red" >
+                <animate  attributeName="cy"  values="65;100;65;60" dur="5s"  repeatCount="indefinite"/>
+            </ellipse>
+            <!-- line -->
+             <line x1="10" y1="25"  x2="150" y2="25" stroke-width="4" stroke-dasharray="10,1" stroke="red"></line>
+             <!-- rectange -->
+              <rect x="45" y="80" width="10" height="30" fill="yellow" />
+        </svg>
+
+</body>
+</html>

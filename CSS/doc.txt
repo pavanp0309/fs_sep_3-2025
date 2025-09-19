@@ -1,0 +1,56 @@
+CSS :Cascading style sheet
+Cascading: set of rules/limitations applied to an Html elements 
+
+Current version of css :CSS3
+
+Fetures :
+1.FlexBox (1d layouts) either row or cloumns directions
+    card-layouts ,navbars footer ,landingpages etc..
+2.grid system (2d layout)  : both in row and columns directions
+    dashboards,news_paper layouts ,image galleries successstories etc..
+3.RWD: RESPONSIVE WEBDESIGN 
+     we use MediaQueries to Rwd design 
+4.varibales :reusability ,predefined styles ,easy to edit and update 
+5.enhanced background Properties : background-image,backdrop-filter filter etc..
+6.counters,container Properties etc..
+7.Pseudo-class and Pseudo-elements 
+8.animations transitions ,transformations 
+
+
+
+Different ways to links css to Html 
+1.inline css 
+2.internal css 
+3.external css  
+
+
+syntax for inline css 
+style="property:value;property:value;property:value;property:value;"
+style="color:red;background:blue;textalign:center;"
+
+internal & external 
+selector{
+    property:value;
+    property:value;
+    property:value;
+}
+
+
+Terminology of selector  
+<h1></h1> : element /tag  -- Type selectors
+<h1 id="card" class="c1"></h1> :id="card" :id selector class="c1" :selector :-Attribute selector 
+h1,p,#card,.c1 : group selector  
+
+<p>Hii
+ everyone</p>
+
+Types of selector 
+1.simple selector  : id ,class tag/element, group , universal selector (*)
+2.combinators selector : 
+          child selector (>)
+          descendent selector ( )
+          general sibiling selector (~)
+          adjacent sibiling selector (+)
+3.Pseudo-class : :hover ,:nth-child ,:first-child ,:last-child :focus ,:not :required :readonly ,:disabled  etc ..
+4.Pseudo-elements ::first-letter ,first-line ,selection ,::marker  ,placeholder  etc..
+5.Attribute-selector

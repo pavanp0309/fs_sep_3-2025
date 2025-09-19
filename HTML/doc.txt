@@ -1,0 +1,118 @@
+
+Airtel_social_prachar_new
+Password: SocialP123# 
+
+HTML :HYPERTEXT MARKUP LANGUAGE
+HYPERTEXT : The text which links Two or more webpages (hyperlinks)
+MARKUP:collection of tags (image ,audio video ,h1-h6 p,forms table)
+
+UseCase: html is used for developing the skeleton or structure of the webpages or website
+
+Current Version :  HTML 5.3
+
+Features of HTML5 
+ 1.it supports multimedia (image audio video iframes(embed tags(webpage in a webpage)))
+ 2.it supports semantic Tags (Header footer aside nav article main section figure and figurecaption)
+ 3.it supports entities (special characters or symbols) 
+       eg: &code;  --- characters
+        &#code; ---emojies 
+4.it supports canvas 
+  eg :(whiteboards)
+5.it supports svg (scalable vector graphics)
+    it doesnt loose the picture Quality and increases the seo (search engine optimization)
+    eg: bar chart .pie chart geometrical shapes ,icons logos 
+6.enhanced forms (date methods: date-time date-time-local month ,file, url,saerch etc.. )
+7.it supports webapis : geolocationapi ,fetch ,[settimeout and setintervals] -->(timers)
+8.it also supports cross platform application like mobile web desktop application 
+
+
+DOCTYPE html : it describes about the type of version of html we use  
+            it represents the Current version html to the Browser 
+
+TAG :it tells the type of content we present 
+  p img ,audio a pre ,h1
+ 
+ELEMENTS :
+
+Container ELEMENTS :  are  which has both opening and closing_tag along with some content inside it             
+<p>Hello Html</p>
+<p>:opening_tag
+</p>:closing_tag
+Hello_html : content 
+
+Empty ELEMENTS / Void ELEMENTS  : which doesnt Contain any content inside it 
+<br/> ,img ,hr 
+
+
+Comments :
+ <!-- Comments -->
+
+
+ ATTRIBUTES :Means which gives additional information to a tag or element 
+ eg: src alt width height  href  type id class etc ... 
+
+ <a href="" target="">click</a>
+ Absolute Url : the address the completely found the web
+ relative Url :the address that is your local system 
+
+ Different Types Of list 
+1. Unordered List  (ul)
+2. ordered List  (ol)
+3. description List  (dl)
+
+
+Terminologies 
+li : list item
+dt: description Term 
+dd: description data 
+
+ATTRIBUTES : which Gives the Additional Information To a  tag or an element 
+List ATTRIBUTES 
+type ,style id class start 
+
+UseCases
+Product description 
+Navbar footers 
+Cards 
+Ranking System 
+
+
+multimedia Tags 
+audio
+video
+images 
+iframes (webpage in a webpage )--embed tag 
+
+Attributes of multimedia tags 
+audio : src  type  autoplay controlls loop muted 
+video :src type autoplay controlls loop muted poster width and height 
+image : src alt width height 
+iframes: src width height frameborder border style allowfullscreen referpolicy etc..
+
+
+
+Table ELements : 
+table 
+tr: table Row   (rows)
+td: table data  (columns)
+th :table header  (columns)
+thead : used for grouping all table Headers
+tbody : used for grouping all table data 
+tfoot : used for footer content like brand name copywrites etc..
+
+Table Attributes 
+border style width height align rowspan colspan cellpadding cellspacing bgcolor scope
+
+
+Forms: To collect the information from the Users/clients 
+Type of information : name email mobile url dob gender age address reviews files ,education details number time month etc..
+
+FormElements : are used for Building the structure of the Forms 
+1.input lable button textarea select option optgrouph  fieldset legend datalist 
+
+FormControlls: 
+1.required readonly maxlength min and max size method  disabled ,selected mutliple etc..
+
+form_attributes :
+type for id placeholder value 
+required readonly maxlength min and max size method  disabled ,selected mutliple etc.
