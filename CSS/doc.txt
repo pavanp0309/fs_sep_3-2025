@@ -54,3 +54,39 @@ Types of selector
 3.Pseudo-class : :hover ,:nth-child ,:first-child ,:last-child :focus ,:not :required :readonly ,:disabled  etc ..
 4.Pseudo-elements ::first-letter ,first-line ,selection ,::marker  ,placeholder  etc..
 5.Attribute-selector
+
+
+Box_model 
+how HTML elements are rendered as rectangular boxes on a webpage. Every HTML element is treated as a box, and this box is composed of four distinct layers:
+
+1.content
+2.padding : the space around the content 
+   padding-right 
+   padding-left
+   padding-top
+   padding-bottom
+   padding: shorthand 
+3.border : its is thin line around the padding  and below the margin 
+   border-top-style
+   border-bottom-style
+   border-left-style
+   border-right-style
+   border-style (shorthand)
+        border-top-color
+        border-bottom-color
+        border-left-color
+        border-right-color
+   border-color
+        border-top-width
+        border-bottom-width
+        border-left-width
+        border-right-width
+   border-width
+   border:width style color 
+       
+4.Margin :  the space around the Border
+   margin-right 
+   margin-left
+   margin-top
+   margin-bottom
+   margin: shorthand 

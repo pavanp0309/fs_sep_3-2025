@@ -1,0 +1,29 @@
+
+/* child selector */
+.parent>p{
+   background-color: aqua;
+}
+
+/* descendent selector */
+.parent p{
+    background-color: orangered;
+}
+
+
+/* adjancent sibiling selector */
+.parent+h3{
+    background-color: gold;
+}
+
+
+/* general sibiling selector */
+.parent~h3{
+    background-color: pink;
+}
+
+h3~h4{
+    background-color: aqua;
+}
+h1,h6,.para{
+    background: red;
+}
