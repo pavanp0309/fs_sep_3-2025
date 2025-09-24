@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+
+
+/* Totalwidth : width+paddingleft+pr+borderleft_border_right */
+.speakercard{
+    border: 1px solid rgb(255, 72, 0);
+    border-radius: 5px;
+    width: 250px;
+    height: 370px;
+    /* padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    /* 1rem-16px */
+    /* padding: 10px; */
+    padding: 10px 5px;/*top&bottom ,left&right*/
+    padding: 10px 5px 4px;/*top ,left&right bottom*/
+    padding: 10px 5px 4px 6px;/*top ,left&right bottom*/
+    padding: .58rem;
+    /* margin-bottom: 10px;
+    margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin-top: 10px; */
+    margin: auto;
+    box-shadow: 0px 0px 4px blue;
+
+}
+.card-img{
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.card-subtitle{
+  color: blue;
+}
+.card-text{
+ color: gray;
+ font-size: .7rem;
+}
+.card-description{
+   font-size: .9rem;
+   margin: .5rem 0rem;
+}
+.card-btn{
+    margin-top: 5px;
+    border: 1px solid rgb(4, 0, 255);
+    padding: .2rem .5rem;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 255, 0.167);
+    box-shadow: 0px 0px 3px rgb(226, 86, 43);
+} 
+.card-icons{
+ 
+    margin-top: 7px;
+    padding: .5rem;
+    
+}
+
+.card-icons .bi{
+    color: orange;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid orangered;
+}
