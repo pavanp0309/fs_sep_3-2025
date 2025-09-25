@@ -1,0 +1,45 @@
+/* default colors: orange red black white blue gray etcc */
+/* rgb&rgba : red(0-255) green(0-255) and blue(0-255) a:alpha(0-0.9999 */
+/* hexa decimal colors  : #0-9a-f #00ff34 */
+/* hsl:Hue(0-360deg) (0-100%) and lightness(0-100%) a:alpha (0-1) */
+/* linearGradient conical gradient radialGradient : works only with background-image and background */
+body{
+     background-image: linear-gradient(90deg,red, green,blue);
+     background-image: linear-gradient(90deg,red 80%, green,blue);
+     background-image: radial-gradient(blue,orange,green);
+     background:conic-gradient(blue,orange,green);
+     background: #020024;
+background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+background: #EEAECA;
+background: linear-gradient(nulldeg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+
+
+
+p{
+    color: red;
+    color: whitesmoke;
+    color: orangered;
+    color: olivedrab;
+
+    color:rgb(255,0,0);
+    color:rgb(0,0,255);
+    color:rgb(0,255,0);
+    color:rgb(0,0,0);
+    color:rgb(255,255,255);
+    color:rgba(208, 28, 28, 0.986);
+
+    color: #ffffff;
+    color: #fff;
+    color: #000000;
+    color: #9a6bf4;
+
+    color: hsl(60, 100%, 48%);
+    color: hsla(60, 100%, 48%, 0.8);
+     
+    
+
+
+}
+
