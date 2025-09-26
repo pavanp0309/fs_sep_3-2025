@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        width: 100px;
+        height: 100px;
+        border: 2px solid red;
+        border-radius: 5px;
+        background-color: gold;
+        transition: all 3s linear;
+        perspective: 800px;
+        }
+
+        div:hover{
+            /* transform: translateY(-10px);
+            transform: translateX(-10px);
+            transform: translateX(10px) translateY(10px); */
+            /* transform: translate(10px ,10px) ;
+            transform: rotateX(56deg);
+            transform: rotateY(156deg);
+            transform: rotate(176deg);
+            transform: scaleX(1.2);
+            transform: scaleY(1.2);
+            transform: scale(1.2);
+            transform: skewX(145deg);
+            transform: skewY(145deg);
+            transform: skew(145deg);
+            transform: translate(150px ,50px) rotate(260deg) scale(1.5) skew(145deg); */
+            transform: translate3d(10px ,100px,500px);
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+</body>
+</html>
