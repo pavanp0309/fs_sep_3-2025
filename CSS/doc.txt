@@ -90,3 +90,26 @@ how HTML elements are rendered as rectangular boxes on a webpage. Every HTML ele
    margin-top
    margin-bottom
    margin: shorthand 
+
+
+   position property are used to control the element placed on the webpage 
+   decides weather thr eelement stays in the document flow or not or it can moved ffreely like top bottom left right direction in the webpage 
+
+   why 
+   to move elements anywhere we want on the webpage 
+   using z-index with positions to layer the elements
+   sticky hedeaer and footers 
+   floating buttons  etc..
+
+   Different 
+   1.position:static 
+     it flows the normal document flow no manual positioning
+   2.position:Relative 
+    it alwsys moves the element relative to it previous element if there is no previous element it moves form root element
+    it stays in the normal document flow and but we can move the element to top bottom lef right direction 
+   3.position:Absolute 
+     it always comes out of mormal document flow  and always moves from root of the document until and unless its parent element is specified with an position property like absolute or realtive
+   4.position:sticky
+   5.position:fixed 
+
+   to move the element we use the offeset Properties like top bottom left right 
