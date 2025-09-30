@@ -1,0 +1,40 @@
+
+.products{
+    display: flex;
+    height: 100vh;
+    /* flex-direction:row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content:center;
+    /* flex:nowrap: prevents align content from having an effect  */
+    /* align-content:  space-around; */
+    align-items: start;
+
+}
+
+
+/* child items */
+.product{
+ border: 2px solid red;
+ padding: 1.2rem;
+ height: 50px;
+}
+
+.product-1{
+    /* flex-grow: 2; */
+    flex-basis:200px ;
+    /* width: 250px; */
+    /* min-width: 100px; */
+    max-width: 100px;
+/* shorthand for flex-grow flex-shrink flex-basis */
+    flex: 1 2 200px;
+    align-self: self-start;
+}
+
+.product-3{
+    flex-shrink: 2;
+    flex-grow: 2;
+    background-color: gold;
+    background-color:orangered;
+    
+}

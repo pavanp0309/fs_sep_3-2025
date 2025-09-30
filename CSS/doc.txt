@@ -113,3 +113,23 @@ how HTML elements are rendered as rectangular boxes on a webpage. Every HTML ele
    5.position:fixed 
 
    to move the element we use the offeset Properties like top bottom left right 
+
+
+
+
+   FlexBox : used for developing 1d layouts 
+   benefits:
+    custom ordering 
+    RESPONSIVE by default (flex_wrap)
+    vertical centering 
+    dynmaic in size 
+
+
+Flex_box_parent property 
+display:flex  (to enable flex concept we use it)
+2.flex-direction :row(defalut) | column | column-reverse  | row-reverse 
+3.flex-wrap :wrap | no-wrap |wrap-reverse
+4.flex-flow :flex-direction | flex-wrap  
+5.justify-content : start | end |center  | space-between  |space-around |space-evenly  -->fd: row --> horizontal dir fd:col--vertical
+6.align-content : start | end |center  | space-between  |space-around |space-evenly -->fd: row --> vertical dir fd:col--horizontal
+7.align-items-:start center end  stretch and baseline
