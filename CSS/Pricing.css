@@ -1,0 +1,92 @@
+
+
+/* parent styles */
+.pricing_layout{
+ display: flex;
+ gap: 5px;
+ height: 100vh;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-content: center;
+}
+
+
+
+/* common styles */
+.pricing-card{
+    height: 380px;
+    width: 250px;
+    background-color: rgba(246, 246, 246, 0.178);
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    border: 1px solid red;
+    transition: all .3s linear;
+}
+.pricing-card:hover{
+    transform: translateY(-10px);
+}
+
+.pro{
+    position: relative;
+}
+
+.popular{
+    position: absolute;
+    right:10px;
+    top:5px;
+    border: 1px solid green;
+    padding: .3rem .5rem;
+    border-radius: 30px;
+    background-color: rgba(12, 114, 148, 0.457);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.pricing-type{
+    border: 1px solid rgb(171, 231, 243);
+    padding: .4rem .5rem;
+    border-radius: 20px;
+    background-color: rgb(178, 228, 211);
+    color: rgb(5, 31, 133);
+    font-weight: bold;
+}
+.price{
+    font-size: 3rem;
+}
+
+.pricing-benefits{
+    list-style-type: none;
+}
+.not-included{
+    color: gray;
+}
+
+
+
+
+.btn{
+    display: block;
+    width: 220px;
+    padding: .5rem 0rem; 
+    margin-bottom: 2px;
+    border: none;
+    outline: 1px solid rgb(157, 163, 164);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(20, 193, 40);
+    font-weight: bold;
+    transition: all .5s linear;
+    box-shadow: 0px 0px 5px;
+}
+.btn:hover{
+    background-color: aqua;
+    color: red;
+}
+
+
+
+
+
