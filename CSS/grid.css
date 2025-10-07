@@ -1,0 +1,43 @@
+
+/* parent  element */
+/* block  :occupies full width and start in a new line */
+/* inline  :occupies content width and start in a new line */
+/* flex: its used for developing 1D layouts (either row or columns  */
+/* grid used for developing 2d layouts in both row & columns */
+.container{
+   display: grid;
+   height: 100vh;
+   /*columns  */
+   /* grid-template-columns: 100px 200px 50px;
+   grid-template-columns: 20% 30% 20%;
+   grid-template-columns: auto auto auto; */
+   grid-template-columns: repeat(3,130px);
+   /* grid-template-columns: repeat(2,100px) auto; */
+   /* rows */
+   grid-template-rows:100px 200px 40px ;
+   /* gap */
+  /* row-gap: 2px;
+  column-gap: 3px; */
+   gap: 4px;
+   /* moves the items in horizontal direction : start end center baseline stretch  */
+   justify-items: center;
+    /* moves the items in vertical direction : start end center baseline stretch  */
+   align-items: center;
+   /* shorthand prop for align-items: center;justify-items: center*/
+   place-items: center;
+   /* moving the entire cells  in horizontal direction*/
+   justify-content:center ; /* start center end space-around space-evenly space-between */
+     /* moving the entire cells  in vertical direction but height should be clearly mentioned*/
+   align-content: center;
+   /* shorthand prop for align-content: center;justify-content: center*/
+   place-content: center;
+   
+}
+
+/* .child element  */
+.child{
+    
+    background-color: gold;
+    padding: 2rem;
+
+}
