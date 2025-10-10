@@ -1,0 +1,38 @@
+
+/* parent style */
+.weblayout{
+  display: grid;
+  height: 100vh;
+  gap: 10px;
+  grid-template-columns:1fr 2fr 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: 
+  "a a a"
+  "b c d"
+  "f f f"
+  ;
+}
+
+/* child common style */
+.child{
+  background-color: gold;
+  padding:2rem;
+  border: 1px solid red;
+}
+
+/* child seprate styles */
+.header{
+    grid-area: a;
+}
+.nav{
+    grid-area: b;
+}
+.Article{
+    grid-area: c;
+}
+.ads{
+    grid-area: d;
+}
+.footer{
+    grid-area: f;
+}

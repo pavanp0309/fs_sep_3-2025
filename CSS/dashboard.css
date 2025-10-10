@@ -1,0 +1,95 @@
+
+
+
+.dashboard{
+ display: grid;
+ height: 100vh;
+ gap: 5px;
+ grid-template-columns: .5fr 2fr;
+ grid-template-rows: 70px 1fr;
+ grid-template-areas:
+ "aside nav"
+ "aside main"
+ ;
+}
+
+/* child item stylings */
+.d-layout{
+ background-color:whitesmoke;
+ padding: 1.5rem;
+}
+
+/* navbar styles start */
+.Navbar{
+ grid-area: nav;
+ display: flex;
+position: sticky;
+top:0;
+
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid gray;
+}
+.Navbar input{
+    width: 200px;
+    padding: .7rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+.Navbar .nav-right{
+    display: flex;
+    align-items: center;
+}
+.Navbar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0px .3rem;
+}
+.Navbar .bi{
+    font-size: 1.3rem;
+    margin: 0px .3rem;
+}
+.Navbar .username{
+   text-transform: capitalize;
+   font-weight: bold;
+}
+/* navbar styles end  */
+
+.sidebar{
+ grid-area: aside;
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 230px;
+ height: 100vh;
+ border: 2px solid red;
+}
+
+/* main section styles */
+.main{
+grid-area: main;
+overflow-y: auto;
+}
+
+.stats{
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4,minmax(200px,1fr));
+  grid-template-rows: 150px;
+}
+.stat-card, .stats-card{
+  background-color: aquamarine;
+  padding: 1.3rem;
+  border-radius: 10px;
+  border: .5px solid black;
+}
+.stats-graph{
+    display: grid;
+    margin: 5px 0px;
+  gap: 2px;
+  grid-template-columns:minmax(300px,2fr) minmax(100px,1fr);
+  grid-template-rows: 200px;
+}

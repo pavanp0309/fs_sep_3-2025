@@ -1,0 +1,55 @@
+.layout{
+   display: grid;
+   gap: 3px;
+   height: 100vh;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: 100px 1fr 1fr 1fr 100px;
+   grid-template-areas: 
+   "a a a a"
+   "b c d d"
+   "b e e f"
+   "b g h i"
+   "b j j j"
+   ;
+}
+
+
+/* common styles for child items */
+.child{
+ background-color: gold;
+ padding: 2rem;
+ 
+}
+
+
+/* styles for each child  */
+.child-1{
+    grid-area: a;
+}
+.child-2{
+    grid-area: b;
+}
+.child-3{
+     grid-area: c;
+}
+.child-4{
+      grid-area: d;
+}
+.child-5{
+      grid-area: e;
+}
+.child-6{
+      grid-area: f;
+}
+.child-7{
+      grid-area: g;
+}
+.child-8{
+      grid-area: h;
+}
+.child-9{
+      grid-area: i;
+}
+.child-10{
+      grid-area: j;
+}

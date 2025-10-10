@@ -1,0 +1,66 @@
+body {
+  background-color: orangered;
+}
+
+.services{
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    gap: 5px; */
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.card{
+width: 150px;
+height: 150px;
+padding: 1.27rem;
+border: 1px solid green;
+background-color: azure;
+border-radius: 5px;
+}
+
+
+/* media queries */
+/* min-width:startpoint
+max-width: endpoint*/
+/* breakpoints: */
+/* sm	≥576px : mobiles: jio mobiles iphone5 etc */
+/* md	≥768px :mobile tabs
+  lg	≥992px: tabs laptops 
+  xl	≥1200px: laptops pc etc..
+ xxl	≥1400px : tv, laptops ,pc and projectors etc.. */
+/* screen printer all*/
+@media screen and (min-width:100px) and (max-width:576px){
+    body {
+  background-color: rgb(0, 13, 255);
+
+}
+.services{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.card{
+        width: 296px;
+        height: 193px;
+
+padding: 1.27rem;
+border: 1px solid green;
+background-color: azure;
+border-radius: 5px;
+}
+}
+
+@media screen and (min-width:577px) and (max-width:726px){
+    body {
+  background-color: rgb(255, 0, 170);
+}
+}
+
+
+@media screen and (min-width:727px) and (max-width:976px){
+    body {
+  background-color: rgb(43, 255, 0);
+}
+}
