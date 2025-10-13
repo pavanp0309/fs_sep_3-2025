@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::selection{
+            background-color: orange;
+        }
+        h6::first-line{
+            font-size: 1.5rem;
+            color: red;
+        }
+        h6::first-letter{
+            text-transform: capitalize;
+            font-size: 2rem;
+            color: blue;
+        }
+        h6::after{
+            content:"🎯"
+        }
+         /* h6::before{
+            content:"🎯"
+        } */
+        input::placeholder{
+            font-size: .97rem;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        li::marker{
+            content:"🚓 ";
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <p>hello</p>
+        <li>item1</li>
+        <li>item2</li>
+    </ul>
+    <div>
+        <p>hello</p>
+        <h1>hii</h1>
+        <h1>bye</h1>
+    </div>
+    <input type="text" placeholder="enter ur name">
+    <p>Hello Welcome to Js world</p>
+    <h6>lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestias ratione nisi iste praesentium, amet similique natus a quasi earum, vitae soluta ea corporis sequi, vero illum est itaque rem.</h6>
+</body>
+</html>
