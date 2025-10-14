@@ -1,0 +1,38 @@
+
+/* exact match */
+input[type="email"]{
+    border: 2px solid red ;
+}
+/* exact match  */
+/* p[class="wish"]{
+    color: orangered;
+} */
+
+/* starts with */
+/* p[class^="wish"]{
+    color: orangered;
+} */
+
+/* endswith */
+/* p[class$="wish"]{
+    color: rgb(0, 89, 255);
+} */
+
+/* anywhere */
+/* p[class*="wish"]{
+    color: rgb(0, 255, 251);
+} */
+
+/* space spearated word */
+p[class~="wish"]{
+    color: red;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+/* hypen based values */
+p[class|="wish"]{
+    color: rgb(38, 0, 255);
+    font-size: 2rem;
+    text-transform: capitalize;
+}
